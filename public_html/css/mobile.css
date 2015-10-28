@@ -1,0 +1,15 @@
+@media only screen and (max-device-width : 1024px) {
+	a.link {
+		font-size: 1em;
+		margin: 10px 10px;
+	}
+
+	address {
+		font-size: 1em;
+	}
+
+	.google-map {
+		width: 90%;
+		height: auto;
+	}
+}

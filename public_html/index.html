@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mulyana's Fitness/Ultimate X Training</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/mobile.css">
+
+		<!-- Instagram feed javascript http://instafeedjs.com/ -->
+		<script src="js/instafeed.min.js"></script>
+	</head>
+	<body>
+		<section id="top">
+			<div class="center-v">
+				<img class="mf-logo center-block" src="images/mf-logo.png">
+				<div class="container-fluid">
+					<div class="links row">
+						<a href="#classes" class="link">Classes</a>
+						<a href="#photos" class="link">Photos</a>
+						<a href="#contact" class="link">Contact</a>
+					</div>
+				</div>
+				<img class="center-block mf-gym" src="images/mf-gym.jpg">
+			</div>
+		</section>
+		
+		<section id="classes">
+			<div class="container center-block center-v">
+				<h1>Classes and Times</h1>
+				<table class="table well">
+					<tr>
+						<th>Class</th>
+						<th>Days</th>
+						<th>Time</th>
+						<th></th>
+					</tr>
+					<tr>
+						<td>Bootcamp</td>
+						<td>M, T, W, T, F</td>
+						<td>5:00am</td>
+						<td><a href="#" class="btn btn-default">Sign-Up</a></td>
+					</tr>
+					<tr>
+						<td>Bootcamp</td>
+						<td>M, T, W, T, F</td>
+						<td>6:00am</td>
+						<td><a href="#" class="btn btn-default">Sign-Up</a></td>
+					</tr>
+					<tr>
+						<td>Personal Training</td>
+						<td>T, T</td>
+						<td>7:00am</td>
+						<td><a href="#" class="btn btn-default">Sign-Up</a></td>
+					</tr>
+					<tr>
+						<td>Bootcamp</td>
+						<td>M, T, W, T, F</td>
+						<td>8:30am</td>
+						<td><a href="#" class="btn btn-default">Sign-Up</a></td>
+					</tr>
+					<tr>
+						<td>Elite Bootcamp</td>
+						<td>M, T, W, T, F</td>
+						<td>5:00pm</td>
+						<td><a href="#" class="btn btn-default">Sign-Up</a></td>
+					</tr>
+					<tr>
+						<td>Elite Bootcamp</td>
+						<td>M, T, W, T, F</td>
+						<td>6:00pm</td>
+						<td><a href="#" class="btn btn-default">Sign-Up</a></td>
+					</tr>
+				</table>
+				<a href="#top" class="btn btn-default btn-sm">Return to top</a>
+			</div>
+		</section>
+		
+		<section id="photos">
+			<div class="container center-block">
+				<h3>Instagram us at <strong>#ultimatextraining</strong></h3><br />
+				<div id="instafeed"></div>
+				<script type="text/javascript">
+			    var feed = new Instafeed({
+			        get: 'tagged',
+			        tagName: 'ultimatextraining',
+			        clientId: '2882920223834c1da80d796e0c1df377',
+			        template: '<a href="{{link}}"><img class="ig-thumb" src="{{image}}" /></a>',
+			        limit: 6
+			    });
+			    feed.run();
+				</script>
+
+				<a href="#top" class="btn btn-default btn-sm">Return to top</a>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container center-v">
+				<iframe allowfullscreen='' class='center-block google-map' frameborder='0' height='450' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7418.9397996573225!2d-119.08788169901344!3d35.39169507897684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea425a1fc68125%3A0xc5ee63bf740c7ed4!2s6914+Downing+Ave%2C+Bakersfield%2C+CA+93308!5e0!3m2!1sen!2sus!4v1444254634229' style='border:0' width='600'></iframe>
+
+				<address class="text-center">
+					<strong>Mulyana's Fitness</strong><br />
+					6914 Downing Ave<br />
+					Bakersfield, CA 93308<br />
+					<abbr title="phone">P:</abbr>(661) 444-3635<br />
+					<abbr title="email">E:</abbr>dicky@dmulyana.com<br />
+				</address>
+				<a href="#top" class="btn btn-default btn-sm">Return to top</a>
+			</div>
+		</section>
+
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!--<script src="js/parallax.min.js"></script>--> <!-- http://pixelcog.github.io/parallax.js/ -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
