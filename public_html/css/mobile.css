@@ -12,4 +12,8 @@
 		width: 90%;
 		height: auto;
 	}
+
+	.mobile-hide { display: none; }
+
+	.top-btn { display: none; }
 }

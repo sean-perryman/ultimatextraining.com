@@ -15,7 +15,6 @@ body {
 
 address { 
 	font-size: 2em;
-	color: #777; 
 	padding-bottom: 50px;
 }
 
@@ -25,6 +24,7 @@ address {
 
 section {
 	height: 100vh;
+	overflow: hidden;
 }
 
 .center-v {
@@ -33,7 +33,7 @@ section {
   transform: translateY(-50%);*/
 }
 
-#classes, #contact {
+#news, #photos {
 	background-color: #CCC;
 }
 
@@ -45,10 +45,25 @@ section {
 a.link {
 	margin: 10px 35px;
 	font-size: 1.5em;
-	text-decoration: none;
-	color: black;
 }
 
-#instafeed {
-	
+a.instagram { color: black; }
+
+td {
+	color: red;
 }
+
+.container { 
+	position: relative; 
+	height: 100vh;
+}
+
+.top-btn {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  font-size: 1.25em;
+}
+
+.dark-text { color: black; }
+.light-text { color: lightgrey; }
